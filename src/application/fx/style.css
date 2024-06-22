@@ -1,0 +1,23 @@
+Button{
+	-fx-font-size: 1.2em;
+}
+
+#display{
+	-fx-font-size: 1.3em;
+}
+
+.numbers {
+	-fx-background-color: #C0DCCB;
+}
+
+.operators, #point, #result{
+	-fx-background-color: #8CAE98;
+}
+
+#clear {
+	-fx-background-color: #D4F3DF;
+}
+
+.numbers:hover,.operators:hover, #point:hover, #clear:hover, #result:hover {
+    -fx-background-color: rgb(200,255,200); 
+}
